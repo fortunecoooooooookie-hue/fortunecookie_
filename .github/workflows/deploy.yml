@@ -21,7 +21,7 @@ jobs:
         run: flutter pub get
 
       - name: Build web release
-        run: flutter build web --release --base-href /fortune-cookie/
+        run: flutter build web --release --base-href /fortunecookie_/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
